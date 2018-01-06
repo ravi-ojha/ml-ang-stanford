@@ -26,7 +26,7 @@ for iter = 1:num_iters
 
     % Since temp is 1 x 2 matrix while we expect theta to be 1 x 2
     % I take transpose again and store it back in theta
-    theta = temp'
+    theta = temp' ;
 
 
 
